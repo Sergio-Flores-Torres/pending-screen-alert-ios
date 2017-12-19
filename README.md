@@ -3,7 +3,7 @@ An obj-category that can be added to any UIViewController to show a "pending act
 
 DESCRIPTION
 
-This Obj-Category encapsulates a few useful functions that are found in pretty much every iOS project, and can be easily added and modified as needed. To use the Category all you have to do is to add the files to your project, and add an import to the classes you want to call them from. Categories work by "extending" the original class, withour subclassing, so the imported methods can be called from [self], as shown in the example:
+This Obj-Category encapsulates a few useful functions that are found in pretty much every iOS project, and can be easily added and modified as needed. To use the Category all you have to do is add the files to your project, and also add an import to the classes you want to call them from. Categories work by "extending" the original class, without subclassing, so the imported methods can be called from [self], as shown in the example:
 
 // MyViewController.m
 
@@ -34,7 +34,7 @@ The functions are:
 - (void) dismisKBFromView:(id)sender;
 - (void) removeKeyboardFromBackground;
 
-showPendingScreen works by adding a full screen view, that covers any active view and animates alpha, before adding and animating an activityindicator. 
+showPendingScreen works by adding a full screen view that covers any active view and animates alpha, before adding and animating an activityindicator. 
 
 See code comments for the specifics of the other functions.
 
